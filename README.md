@@ -1,7 +1,7 @@
 # Adidas-Us-retailers-demand-forcasting-
 Анализ и предсказание продаж компании Adidas на основе ограниченного количества признаков. 
-# Чистка Данных
-
+```
+#Чистка Данных
 import datetime
 import numpy as np
 import pandas as pd
@@ -342,3 +342,4 @@ ax.scatter(y_pred, yn_test)
 plt.show()
 
 # XGBOOST для нормализированных данных
+```
